@@ -251,7 +251,7 @@ const age = 16;
 console.log(age >= 20);
 console.log(age < 30);
 */
-
+/*
 const hasDriversLicense = true; //A
 const hasGoodVision = true; //B
 
@@ -278,4 +278,5 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 } else {
   console.log('someone else should drive')
 }
+*/
 
