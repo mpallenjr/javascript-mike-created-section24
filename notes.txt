@@ -148,9 +148,12 @@ only if a AND b are true will the AND operator be true
 
 if a OR b are true then the OR operator becomes true
 
-not operator inverts a boolean value.
+not operator inverts a boolean value. the ! is inserted at the beginning of the variable. 
 
 \\\\\\\\\\
 
 Section 24 - Logical Operators
 
+Practical.  
+
+\\\\\\\\\\
