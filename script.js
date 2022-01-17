@@ -252,5 +252,30 @@ console.log(age >= 20);
 console.log(age < 30);
 */
 
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
 
+console.log(hasDriversLicense && !hasGoodVision); 
+// and operator with not operator on hasGoodVision
+console.log(hasDriversLicense || hasGoodVision); 
+// or operator
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if(shouldDrive) {
+  console.log('Sarah is able to drive')
+} else {
+  console.log('someone else should drive')
+}
+
+const isTired = false //c
+
+console.log(hasDriversLicense && hasGoodVision && !isTired)
+
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+  console.log('Sarah is able to drive')
+} else {
+  console.log('someone else should drive')
+}
 
